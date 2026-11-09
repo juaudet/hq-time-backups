@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HQ time backups</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>HQ time backups</h1>
+<p class="lede">A personal tool, not a public service.</p>
+<p>HQ time tracker is a small time-tracking app that runs on its owner's Raspberry Pi. Every night it encrypts a copy of its own database and uploads it to a folder in its owner's Google Drive, so the data survives if the Pi fails.</p>
+<p>It uses Google sign-in only for that upload. It asks for the narrowest Drive permission Google offers (<code>drive.file</code>), so it can see only the folder and files it creates itself, not anything else in the Drive. Nobody else signs in to it.</p>
+<p><a href="privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>
